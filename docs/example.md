@@ -56,6 +56,7 @@ sh align_index.sh ${INPUT_DIR}/BA_NAT_guppy/.fast5
 ```
 ## 3. Extract features
 Features of targeted sites can be extracted for training or testing.
+
 For the example data
 ```
 
