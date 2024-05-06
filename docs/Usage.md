@@ -52,7 +52,7 @@ ont-guppy/bin/guppy_basecaller -i ${INPUT_DIR}/BA_WGA -s ${INPUT_DIR}/BA_WGA_gup
 ## 2.2 extract signal and location
 ```
 #extract fastq and signal information from fast5 file and Align reads using minimap2 and then sort and index the BAM file
-sh align_index.sh ${INPUT_DIR}/BA_NAT_guppy/.fast5
+./align_index.sh -ref Bacillus_amyloliquefaciens.fa -fast5 ${INPUT_DIR}/BA_NAT_guppy/.fast5 -ref_rev Bacillus_amyloliquefaciens_rev.fa
 ```
 ## 3. Extract features
 Features of targeted sites can be extracted for training or testing.
