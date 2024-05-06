@@ -11,7 +11,7 @@ Please refer to [Installation](https://github.com/Bessyyi/Poreformer/blob/main/d
 ## Inference
 #### Quick usage guide for model inference:
 
-  1.To call modifications, the raw fast5 files should be basecalled by Guppy.
+  1. To call modifications, the raw fast5 files should be basecalled by Guppy.
 ```
 ont-guppy/bin/guppy_basecaller -i ${INPUT_DIR}/BA_NAT -s ${INPUT_DIR}/BA_NAT_guppy -c ont-guppy/data/dna_r9.4.1_450bps_hac.cfg -x cuda:all:100% -r --fast5_out
 ```
