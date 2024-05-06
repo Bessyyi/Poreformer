@@ -22,3 +22,4 @@ ont-guppy/bin/guppy_basecaller -i ${INPUT_DIR}/BA_NAT -s ${INPUT_DIR}/BA_NAT_gup
   3. Extract features
 ```
 ```
+Please refer to [Usage.md](docs/Usage.md) for details on how to use Poreformer.
