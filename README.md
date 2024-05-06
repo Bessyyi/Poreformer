@@ -2,10 +2,10 @@
 Identification of methylation for Nanopore DNA sequencing.
 
 Poreformer is a computational tool for detecting DNA 5mC、4mC and 6mA methylation from Oxford Nanopore reads. It uses a Transfomer model to predict per-read and per-site 5mC、4mC and 6mA methylations and produces a methylation file. Poreformer can call methylation from FAST5 files basecalled with Guppy and provides models for R9.4.1 flowcells.
-<p align="center"> <img src="https://github.com/WGLab/DeepMod2/assets/35819083/e0ef0b41-a469-427d-abaa-af2ba6292809"  width="50%" > </p>
+<p align="center"> <img src="https://github.com/Bessyyi/Poreformer/blob/main/img/model.png"  width="50%" > </p>
 
 
-Download Software Packges
+## Installation 
 ```
 # Install Poreformer
 
