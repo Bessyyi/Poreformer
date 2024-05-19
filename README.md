@@ -21,5 +21,12 @@ ont-guppy/bin/guppy_basecaller -i ${INPUT_DIR}/BA_NAT -s ${INPUT_DIR}/BA_NAT_gup
 ```
   3. Extract features
 ```
+sh extra_feature.sh -ref Bacillus_amyloliquefaciens.fa -forward_current all_zheng_fin_sort_fin.txt -ref_rev Bacillus_amyloliquefaciens_rev.fa -reversed_current all_fan_fin_sort_fin.txt
+```
+## 4. Methylation Calling with Poreformer
+```
+sh Poreformer.sh -meth_type mC -feature all_mC_reversed_current_mean_kmeans_6_5.txt
+sh Poreformer.sh -meth_type 6mA -feature all_6mA_reversed_current_mean_kmeans_7_6.txt
+
 ```
 Please refer to [Usage.md](docs/Usage.md) for details on how to use Poreformer.
