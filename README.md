@@ -27,6 +27,5 @@ sh extra_feature.sh -ref Bacillus_amyloliquefaciens.fa -forward_current all_zhen
 ```
 sh Poreformer.sh -meth_type mC -feature all_mC_reversed_current_mean_kmeans_6_5.txt
 sh Poreformer.sh -meth_type 6mA -feature all_6mA_reversed_current_mean_kmeans_7_6.txt
-
 ```
 Please refer to [Usage.md](docs/Usage.md) for details on how to use Poreformer.
