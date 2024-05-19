@@ -88,7 +88,7 @@ python3 step2_pysam_new.py $fast5_fan_fin+_sort.bam > $fast5_fan_fin+.txt
 sort -n -k 2 $fast5_fan_fin+.txt > $fast5_fan_fin+_sort.txt 
 sort -n -k 2 $fast5_zheng_fin.txt >$fast5_zheng_fin_sort.txt
 python3 step3_reads_chuli.py $fast5_fan_fin+_sort.txt > $fast5_fan_fin+_sort1.txt
-Python3 step4_reads_chuli.py $fast5_fan_fin+_sort1.txt >all_fan_fin+_sort_fin.txt
+Python3 step4_reads_chuli.py $fast5_fan_fin+_sort1.txt >all_fan_fin_sort_fin.txt
 python3 step3_reads_chuli.py $fast5_zheng_fin_sort.txt >$fast5_zheng_fin_sort1.txt
 Python3 step4_reads_chuli.py $fast5_zheng_fin_sort1.txt>all_zheng_fin_sort_fin.txt
 
